@@ -1,4 +1,4 @@
-package {$package_name}.entities;
+package ${package_name}.entities;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -13,8 +13,8 @@ import javax.persistence.Table;
 @Setter
 @RequiredArgsConstructor
 @Entity
-@Table(name = "{$entity_name}")
-public class {$entity_name} extends BaseEntity {
+@Table(name = "${entity_name}")
+public class ${entity_name} extends BaseEntity {
     @Column(name = "name")
-    private String {$entity_name}Name;
+    private String ${entity_name}Name;
 }
